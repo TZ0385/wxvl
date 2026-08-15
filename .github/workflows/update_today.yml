@@ -1,6 +1,3 @@
-# This workflow will install Python dependencies, run tests and lint with a single version of Python
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
-
 name: update
 
 on:
@@ -9,31 +6,39 @@ on:
     - cron: '0 */4 * * *'
 permissions:
   contents: write
+# 防止并发运行互相 push 冲突
+concurrency:
+  group: update
+  cancel-in-progress: false
 jobs:
   build:
 
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Set up Python 3.10
-      uses: actions/setup-python@v3
+      uses: actions/setup-python@v5
       with:
         python-version: "3.10"
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
     - name: update
-      env: 
-         GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
+        set -o pipefail
         python run.py today | tee /tmp/update.log
+        # run.py 在三个数据源同时归零时 exit 1, 让本步骤失败:
+        # 断档空转 5 个月无人察觉的教训, 失败会触发 GitHub 邮件通知
     - name: Commit and push if changed
+      if: ${{ success() }}
       run: |
         git config --global user.email "test"
         git config --global user.name "test"
         git add .
         MESSAGE=$(cat /tmp/update.log)
-        COMMIT_MESSAGE="$MESSAGE"
-        git diff-index --quiet HEAD || git commit -m "$(echo -e "$COMMIT_MESSAGE")"
+        git diff-index --quiet HEAD || git commit -m "$(printf '%s' "$MESSAGE")"
         git push
