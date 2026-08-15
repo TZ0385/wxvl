@@ -56,8 +56,8 @@ def get_md_path(executable_path,url):
 def get_chainreactors_url():
     '''获取多日url，返回URL和对应日期的元组列表'''
     # 定义日期范围
-    start_date = "2022-04-07"
-    end_date = "2025-04-16"
+    start_date = "2025-07-09"
+    end_date = "2025-07-28"
     
     # 转换为datetime对象
     start = datetime.datetime.strptime(start_date, "%Y-%m-%d")

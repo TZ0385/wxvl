@@ -3,7 +3,7 @@
 [![GitHub Actions](https://github.com/gelusus/wxvl/actions/workflows/update_today.yml/badge.svg)](https://github.com/gelusus/wxvl/actions)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-本项目基于 [原版wxvl](https://github.com/20142995/wxvl) 进行扩展，新增了2022年4月至2025年4月期间的安全漏洞文章。
+本项目基于 [原wxvl](https://github.com/20142995/wxvl) 进行扩展
 
 ## ✨ 项目功能
 
@@ -12,10 +12,9 @@
 ## 📰 数据来源
 
 数据来自以下渠道的公众号文章：
-- [chainreactors/picker](https://github.com/chainreactors/picker) 每日归档
 - [BruceFeIix/picker](https://github.com/BruceFeIix/picker) 每日归档
 - [Doonsec](https://doonsec.com) RSS订阅源
-- 从GitHub Issues中提取的公众号链接
+
 
 ## 🔍 内容筛选规则
 
