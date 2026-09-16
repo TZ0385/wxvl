@@ -26841,5 +26841,12 @@
     "https://mp.weixin.qq.com/s/d7RYPvYUGfUiydZJPOoslw": "防火墙不是安全终点：PAN-OS未认证漏洞可拿到PA设备root权限",
     "https://mp.weixin.qq.com/s/bEvCh5YQzsMil0TUXSXPzA": "【风险通告】微软9月安全更新补丁和多个高危漏洞风险提示（CVE-2026-85880）",
     "https://mp.weixin.qq.com/s/tb6lbASyfaf5tqv8q8gWFw": "【长亭AI安全·网安周进行时】9奖齐发！漏洞治理见真章，AI成果树标杆",
-    "https://mp.weixin.qq.com/s/nUkpVh3YJ7ejdG0SIAb5bA": "点开一个sgbiz链接就植入后门：搜狗输入法漏洞已被真实利用"
+    "https://mp.weixin.qq.com/s/nUkpVh3YJ7ejdG0SIAb5bA": "点开一个sgbiz链接就植入后门：搜狗输入法漏洞已被真实利用",
+    "https://mp.weixin.qq.com/s/HfmWdQkKsppP8Y_4akp8Ww": "华顺信安荣获CNVD“2025年度漏洞应急工作突出贡献单位”",
+    "https://mp.weixin.qq.com/s/Hg5KbPZeA24zDtKcHWI9Pg": "cPanel：LiteSpeed Web Server 企业版严重漏洞可导致提权",
+    "https://mp.weixin.qq.com/s/dhG4uwa_zWI_Ng_7wmt-ZQ": "ThinkPHP框架：2.x-8.x全版本必须知道的10个通用漏洞（附实战getshell案例）",
+    "https://mp.weixin.qq.com/s/g7C_-SkNwavzz5K3kODpsg": "众测 30 分钟挖到鸿蒙App高危上传漏洞 | 从 APP 一条异常图片请求，发现被忽略的外围攻击面",
+    "https://mp.weixin.qq.com/s/A0h3oCFG6EB8TEomt5Pxbw": "已复现 | Langflow post-auth RCE",
+    "https://mp.weixin.qq.com/s/di-2_6CBcmYkiEy_lFw8dA": "搜狗输入法 Windows 版远程代码执行漏洞(CVE-2026-51990)",
+    "https://mp.weixin.qq.com/s/dmvcbKBWuy1bldoNOLSDaA": "Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability(CVE-2026-85893)"
 }
