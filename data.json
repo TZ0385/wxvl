@@ -26952,5 +26952,16 @@
     "https://mp.weixin.qq.com/s/QcANtCnambV4lliJp2qHGQ": "(10分) CVE-2026-76460：思科Cisco ISE 认证绕过可拿root",
     "https://mp.weixin.qq.com/s/jyXPKk1pei5But-bycMEtg": "Giskard实测：AI Agent漏洞扫描器 一句话自动穷举提示注入 OWASP全查 5828星",
     "https://mp.weixin.qq.com/s/z9TcJ95ZSTQLcsGvhBFbqw": "【漏洞分析】CVE-2026-81642：一行恶意 DNS 记录如何无接触拿下你的服务器",
-    "https://mp.weixin.qq.com/s/liynIdGoUigpU2ZIYcvDUQ": "紧急安全预警｜Node.js vm2曝3个CVSS 10.0沙箱逃逸漏洞，可突破隔离实现RCE"
+    "https://mp.weixin.qq.com/s/liynIdGoUigpU2ZIYcvDUQ": "紧急安全预警｜Node.js vm2曝3个CVSS 10.0沙箱逃逸漏洞，可突破隔离实现RCE",
+    "https://mp.weixin.qq.com/s/fyY5CJwdVcUgvOb8ct6ijQ": "9月社区投稿活动 | 漏洞挖掘∕AI渗透∕面试经验∕简历编写",
+    "https://mp.weixin.qq.com/s/ATMTciDytiZIc_Q5o0ZpGQ": "【漏洞通告】pgAdmin 4 Webserver身份认证绕过漏洞（CVE-2026-86863)",
+    "https://mp.weixin.qq.com/s/gSrqT9wfRKYMk3L3uW_SFg": "CVE-2026-49176 深度解析：Windows WalletService 本地提权链",
+    "https://mp.weixin.qq.com/s/T0RDiYQJ7BuY1FXO8N6VUA": "甲方运维注意：30万 Ollama 裸奔公网 A.I.G 揪出漏洞",
+    "https://mp.weixin.qq.com/s/NVEji4oWEYNMs1LZvTrwOw": "【已复现】漏洞通告 | CUPS 本地权限提升漏洞",
+    "https://mp.weixin.qq.com/s/jvU0gb8_oQkrvnD0QiY5hA": "【漏洞通告】CUPS配置及权限边界缺陷导致本地权限提升漏洞",
+    "https://mp.weixin.qq.com/s/Kta0nvZlLnHw6ENLwMA5Dg": "SolarWinds 修复 ARM 硬编码密钥严重漏洞，可导致未认证RCE",
+    "https://mp.weixin.qq.com/s/83nLAv_Lc7xIkIn5FF_Zmg": "Docker Mac沙箱逃逸漏洞详解",
+    "https://mp.weixin.qq.com/s/xMF-Lu_y5PfejJAIkxLWCw": "Fortinet：Orkes Conductor 工作流平台上严重的预认证 RCE 已遭利用",
+    "https://mp.weixin.qq.com/s/yAkS1WJ431Zx7nW5FNmv7Q": "【已复现】WordPress Click2Shell 核心预认证远程代码执行漏洞(QVD-2026-70986)安全风险通告",
+    "https://mp.weixin.qq.com/s/MAfOiJ0Tbpqe07_4lFlW2g": "BlindRop | 二进制漏洞中的盲注 使用二分算法测试栈溢出长度"
 }
