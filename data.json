@@ -27242,5 +27242,7 @@
     "https://mp.weixin.qq.com/s/BuobyZqHMxVvsBL7XUepBg": "CNNVD | 人工智能重要漏洞通报（2026年第十四期）",
     "https://mp.weixin.qq.com/s/DiDJKzTMpC9q2cqxpz4oCA": "【安全圈】MCP官方SDK高危漏洞：恶意服务可盗取OAuth凭证",
     "https://mp.weixin.qq.com/s/XLId0bCdiNJaRoTSMN0c1A": "【漏洞预警】Citrix NetScaler 命令注入漏洞",
-    "https://mp.weixin.qq.com/s/_Z38qSHvDhI-X5NwN9SnAg": "(10分) CVE-2026-102240：Netcore AP未认证命令注入，一条GET拿root"
+    "https://mp.weixin.qq.com/s/_Z38qSHvDhI-X5NwN9SnAg": "(10分) CVE-2026-102240：Netcore AP未认证命令注入，一条GET拿root",
+    "https://mp.weixin.qq.com/s/-ps4Hty70QFXHX1bRSjpeg": "路径遍历漏洞：一个下载接口引发的系统文件泄露",
+    "https://mp.weixin.qq.com/s/JyXkDWmGtCn2rYsY9iEoMQ": "16岁研究员发现微软身份验证漏洞，导致17.3万亿条记录泄露"
 }
